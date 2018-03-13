@@ -1,0 +1,15 @@
+-console 			//Abre la consola al iniciar el juego
+-novid 				//Desactiva las intros de Valve
+-high 				//El CSGO es prioritario para la CPU
+-nojoy 				//Elimina la posibilidad de jugar con joystick
+-nod3d9ex			//Elimina el uso de algunas extensiones direct3D9. Mejora los FPS
+-fullscreen			//Carga el juego en pantalla completa
+//-windowed 			//Cargar el juego en una ventana
+-threads 4 			//Indica al juego con cuántos núcleos cuenta la CPU
+-refresh 144 			//Indica al juego que la pantalla es de 144 Hz
+-tickrate 128 			//Tickrate de 128 para servidores offline (Tickrate = Número de veces por segundo que el servidor actualiza el estado del juego)
++cl_forcepreload 1		//Precarga mapas, sonidos, texturas, etc. Mejora los FPS
+-language bananagaming		//Lenguaje del juego. También sirve para cargar el MOD de BananaGaming	
++exec autoexec			//Ejecutar autoexec.cfg
+
+-novid -high -nojoy -nod3d9ex -fullscreen -threads 4 -refresh 144 -tickrate 128 +cl_forcepreload 1 -language bananagaming +exec autoexec
