@@ -13,4 +13,4 @@
 -language bananagaming		//Language game. This also launch option is to launch the “Text Color Mod".
 +exec autoexec			      //Execute autoexec.cfg file.
 
--novid -high -nojoy -nod3d9ex -fullscreen -threads 4 -refresh 144 -tickrate 128 +cl_forcepreload 1 -language bananagaming +exec autoexec
+-novid -high -nojoy -nod3d9ex -fullscreen -threads 4 -freq 144 -refresh 144 -tickrate 128 +cl_forcepreload 1 -language bananagaming +exec autoexec
