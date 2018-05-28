@@ -1,0 +1,219 @@
+"RadioPanel.txt"
+{
+
+//"SFUI_StandardRadio"
+//"SFUI_GroupRadio"	
+//"SFUI_ReportRadio"	
+	"Groups"
+	{
+		"standard"
+		{
+			"hotkey"	"1"
+			"title"	"Text Menu"
+			"timeout"	"10"
+			
+			"Commands"
+			{
+				"Casual"
+				{
+					"hotkey"	"1"
+					"label"	"Casual"
+					"cmd"	"game_type 0; game_mode 0"
+				}
+				
+				"Competitive"
+				{
+					"hotkey"	"2"
+					"label"	"Competitive"
+					"cmd"	"game_type 0; game_mode 1"
+				}
+				
+				"Wingman"
+				{
+					"hotkey"	"3"
+					"label"	"Wingman"
+					"cmd"	"game_type 0; game_mode 2"
+				}
+				
+				"Armsrace"
+				{
+					"hotkey"	"4"
+					"label"	"Armsrace"
+					"cmd"	"game_type 1; game_mode 0"
+				}
+				
+				"Demolition"
+				{
+					"hotkey"	"5"
+					"label"	"Demolition"
+					"cmd"	"game_type 1; game_mode 1"
+				}
+				
+				"Deathmatch"
+				{  
+					"hotkey"	"6"
+					"label"	"Deathmatch"
+					"cmd"	"game_type 1; game_mode 2"
+				}
+				
+				"Custom"
+				{
+					"hotkey"	"7"
+					"label"	"Custom"
+					"cmd"	"game_type 3; game_mode 0"
+				}
+				
+				"Empty"
+				{
+					"hotkey"	"8"
+					"label"	"Empty"
+					"cmd"	""
+				}
+				
+				"Empty"
+				{
+					"hotkey"	"9"
+					"label"	"Empty"
+					"cmd"	""
+				}
+				
+			}
+		}
+		"radio"
+		{
+			"hotkey"	"2"
+			"title"	"Radio Menu"
+			"timeout"	"3"
+			
+			"Commands"
+			{
+				"roger"
+				{
+					"hotkey"	"1"
+					"label"	"Yes"
+					"cmd"	"roger"
+				}
+				
+				"negative"
+				{
+					"hotkey"	"2"
+					"label"	"No"
+					"cmd"	"negative"
+				}
+				
+				"go"
+				{
+					"hotkey"	"3"
+					"label"	"Go"
+					"cmd"	"go"
+				}
+				
+				"holdpos"
+				{
+					"hotkey"	"4"
+					"label"	"Hold"
+					"cmd"	"holdpos"
+				}
+				
+				"followme"
+				{
+					"hotkey"	"5"
+					"label"	"Follow me"
+					"cmd"	"followme"
+				}
+				
+				"thanks"
+				{
+					"hotkey"	"6"
+					"label"	"Thanks"
+					"cmd"	"thanks"
+				}
+
+				"cheer"
+				{
+					"hotkey"	"7"
+					"label"	"Cheer"
+					"cmd"	"cheer"
+				}	
+				
+				"sorry"
+				{
+					"hotkey"	"8"
+					"label"	"Sorry"
+					"cmd"	"say_team Sorry!"
+				}	
+
+				"askfordrop"
+				{
+					"hotkey"	"9"
+					"label"	"Drop"
+					"cmd"	"needbackup; say_team Need a drop!"
+				}
+			}
+		}
+		"training"
+		{
+			"hotkey"	"3"
+			"title"	"Training Menu"
+			"timeout"	"10"
+			
+			"Commands"
+			{
+				"Toggle Noclip"
+				{
+					"hotkey"	"1"
+					"label"	"Toggle Noclip"
+					"cmd"	"noclip"
+				}
+				"Impact & Trajectory (ON)"
+				{
+					"hotkey"	"2"
+					"label"	"Impact & Trajectory (ON)"
+					"cmd"	"sv_grenade_trajectory 1; sv_showimpacts 1"
+				}
+				"Impact & Trajectory (OFF)"
+				{
+					"hotkey"	"3"
+					"label"	"Impact & Trajectory (OFF)"
+					"cmd"	"sv_grenade_trajectory 1; sv_showimpacts 1"
+				}	
+				"Only Headshot (ON)"
+				{
+					"hotkey"	"5"
+					"label"	"Only Headshot (ON)"
+					"cmd"	"mp_damage_headshot_only 1; echo Only Headshot (ON)"
+				}
+				"Only Headshot (OFF)"
+				{
+					"hotkey"	"5"
+					"label"	"Only Headshot (OFF)"
+					"cmd"	"mp_damage_headshot_only 0; echo Only Headshot (OFF)"
+				}
+				"Third Person (ON)"
+				{
+					"hotkey"	"6"
+					"label"	"Draw Brushes (OFF)"
+					"cmd"	"thirdperson"
+				}
+				"First person view"
+				{
+					"hotkey"	"7"
+					"label"	"First person view"
+					"cmd"	"firstperson"
+				}
+				"Show position"
+				{
+					"hotkey"	"8"
+					"label"	"Show position"
+					"cmd"	"cl_showpos 1"
+				}
+				"Hide position"
+				{
+					"hotkey"	"9"
+					"label"	"Hide position"
+					"cmd"	"cl_showpos 0"
+				}
+			}
+		}
+	}
+}
