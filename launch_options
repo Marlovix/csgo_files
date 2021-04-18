@@ -1,16 +1,16 @@
--console 			            //Abre la consola al iniciar el juego
--novid 				            //Remove the Valve intro that normally plays at the beginning. A must-have launch option in my opinion.
--high 				            //El CSGO es prioritario para la CPU
--nojoy 				            //Elimina la posibilidad de jugar con joystick
--nod3d9ex			            //Elimina el uso de algunas extensiones direct3D9. Mejora los FPS
--fullscreen			          //Fullscreen game
-//-windowed 			        //Game in a window
--threads 4 			          //Indica al juego con cuántos núcleos cuenta la CPU
--refresh 144 			        //Indica al juego que la pantalla es de 144 Hz
--freq 144                 //Makes sure the monitor is running the game at 240 Hz. Note: Use your monitors maximum refresh rate.
--tickrate 128 			      //If you create an offline game with bots, the created server will run at tickrate 128 instead of 64.
-+cl_forcepreload 1		    //Preload maps, sounds, textures, etc. Better FPS.
--language bananagaming		//Language game. This also launch option is to launch the “Text Color Mod".
-+exec autoexec			      //Execute autoexec.cfg file.
+-console 			              //Abre la consola al iniciar el juego
+-novid 				              //Remove the Valve intro that normally plays at the beginning. A must-have launch option in my opinion.
+-high 				              //El CSGO es prioritario para la CPU
+-nojoy 				              //Elimina la posibilidad de jugar con joystick
+-nod3d9ex			              //Elimina el uso de algunas extensiones direct3D9. Mejora los FPS
+-fullscreen			            //Fullscreen game // -windowed --> Game in a window
+-allow_third_party_software //
+-d3d9ex                     // Baja el uso de la CPU para hacer alt+tab
+-threads 4 			            //Indica al juego con cuántos núcleos cuenta la CPU
+-refresh 144 			          //Indica al juego que la pantalla es de 144 Hz
+-freq 144                   //Makes sure the monitor is running the game at 240 Hz. Note: Use your monitors maximum refresh rate.
+-tickrate 128 			        //If you create an offline game with bots, the created server will run at tickrate 128 instead of 64.
++cl_forcepreload 1		      //Preload maps, sounds, textures, etc. Better FPS.
++exec autoexec			        //Execute autoexec.cfg file.
 
--novid -high -nojoy -nod3d9ex -fullscreen -threads 4 -freq 144 -refresh 144 -tickrate 128 +cl_forcepreload 1 -language bananagaming +exec autoexec
+-novid -high -nojoy -nod3d9ex -fullscreen -allow_third_party_software -dxd9ex -threads 4 -freq 144 -refresh 144 -tickrate 128 +cl_forcepreload 1 +exec autoexec
